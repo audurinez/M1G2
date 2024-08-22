@@ -1,0 +1,147 @@
+
+
+.header_style {
+    padding: 60px;
+    text-align: center;
+    background: #F5EDC4;
+    font-size: 30px;
+  }
+
+.headerstyle1{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 100px;
+    font-style: bold;
+    color:cornflowerblue
+}
+
+.headerstyle2{
+    font-family: "Rubik Mono One", monospace;
+    font-size: x-large;
+    font-style: bold;
+}
+
+.container_title1{
+    display: flex;
+    justify-content: Center;
+    margin: 30 px;
+}
+
+.container_title2{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1 px;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+/* mananged to put a image onto an image through css*/
+.sky{
+    background-image: url("../images/Img1.jpeg");
+    background-size: cover;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageflex{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.infobox{
+    height: 100px;
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+  }
+
+
+
+.skycontainer{
+display: flex;
+justify-content: center;
+
+}
+
+
+.infobox_container{
+    display: grid;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+/* did animation to have the text move across the screen*/
+/* used transform to rotate box*/
+
+.rotate_text{
+    background-color: rgb(234, 59, 59);
+    display: inline-block;
+    transform: rotate(20deg);
+    position: absolute;
+    top: 500px;
+    left: -110px;
+    animation-name: example;
+    animation-duration: 20s;
+
+}
+
+@keyframes example {
+    from {left: -400px;}
+    to {left: 120%;}
+  }
+
+
+.program_text_style{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 20px;
+
+}
+
+.background_color{
+    background-color: #F5EDC4;
+}
+
+.container_logo{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo_size{
+    width: auto;
+    height: 50px;
+}
+
+.footer_style{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 10px;
+
+}
+
+/*used flexbox*/
+
+.container_middle_section{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+
+}
+
+.space{
+
+    height: 50px;
+}
+
